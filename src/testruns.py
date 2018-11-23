@@ -1,3 +1,5 @@
+import debug_dec
+
 g = dict(song = 'gangam style', run = '10k', home = 'NYC')
 
 for k, v in g.items():
@@ -5,10 +7,11 @@ for k, v in g.items():
 
 #print('Trying it {}.{}.{}'.format(**g))
 
+@debug
 def foo(song, home, run):
     print(song + ' ' + home + ' ' + run)
 
-foo(**g)
+foo(**g) 
 
 l = [1, 2, 3, 4, 5]
 
@@ -21,3 +24,5 @@ def main(**kwargs):
 
 if __name__ == '__main__':
     main()
+
+
