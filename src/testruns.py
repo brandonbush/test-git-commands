@@ -7,7 +7,7 @@ for k, v in g.items():
 
 #print('Trying it {}.{}.{}'.format(**g))
 
-@debug
+@debug_dec.debug
 def foo(song, home, run):
     print(song + ' ' + home + ' ' + run)
 
