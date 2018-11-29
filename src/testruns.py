@@ -6,7 +6,7 @@ def foo(song, home, run):
     print(song + ' ' + home + ' ' + run)
 
 #Jon -- Uncomment below line
-#@debug_dec.debug
+@debug_dec.debug
 def tswizzle(age=22):
     return 'I don\'t know about you, but I\'m feeling {}'.format(age)
 
