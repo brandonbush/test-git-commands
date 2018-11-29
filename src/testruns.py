@@ -6,7 +6,7 @@ def foo(song, home, run):
     print(song + ' ' + home + ' ' + run)
 
 #Jon -- Uncomment below line
-#@debug_dec.debug
+@debug_dec.debug
 def tswizzle(age=22):
     return 'I don\'t know about you, but I\'m feeling {}'.format(age)
 
@@ -45,6 +45,6 @@ print(tswizzle())
 print(tswizzle(31))
 
 #Get a file from this directory
-# with open('testfile.txt', 'r') as f:
-#     for l in f:
-#         print(l)
+with open('testfile.txt', 'r') as localfile:
+    for line in localfile:
+        print(line)
