@@ -45,6 +45,6 @@ print(tswizzle())
 print(tswizzle(31))
 
 #Get a file from this directory
-with open('testfile.txt', 'r') as f:
-    for l in f:
-        print(l)
+with open('testfile.txt', 'r') as localfile:
+    for line in localfile:
+        print(line)
