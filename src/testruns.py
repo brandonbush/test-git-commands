@@ -11,7 +11,7 @@ def tswizzle(age=22):
     return 'I don\'t know about you, but I\'m feeling {}'.format(age)
 
 def main(**kwargs):
-    print('This is the main function - ksdjbqekdb - ')
+    print('This is the main function - ksdjbqekdb - dsjdbj')
 
 #Only runs if this script is the one invoked from the command line
 if __name__ == '__main__':
