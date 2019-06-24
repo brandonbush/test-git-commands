@@ -9,11 +9,11 @@ print(g)
 
 #Return a list of odd numbers between inputs l and r
 def oddNumbers(l, r):
-    retval = []
-    for i in range(l, (r+1)):
-        if (i%2) != 0:
-            retval.append(i)
+#     retval = []
+#     for i in range(l, (r+1)):
+#         if (i%2) != 0:
+#             retval.append(i)
             
-    return retval
+    return [i for i in range(l, (r+1)) if (i%2) != 0]
 
 print("Odd Numbers are: " + str(oddNumbers(0, 6)))
