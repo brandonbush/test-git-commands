@@ -15,3 +15,5 @@ def oddNumbers(l, r):
             retval.append(i)
             
     return retval
+
+print("Odd Numbers are: " + str(oddNumbers(0, 6)))
