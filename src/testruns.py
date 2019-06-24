@@ -33,8 +33,8 @@ first, *rest, last = l
 print(str(first) + ' cool ' + str(rest) + ' ' + str(last))
 
 #Playing with lambdas and list comprehension
-squares = lambda x: x*x
-testlist = [squares(x) for x in range(10)]
+additions = lambda x: x+x
+testlist = [additions(x) for x in range(10)]
 
 print(', '.join(str(t) for t in testlist))
 
